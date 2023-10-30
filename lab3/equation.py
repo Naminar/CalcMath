@@ -170,7 +170,7 @@ plt.errorbar([ind + len(x_list) for ind in range(len(x_newton))], x_newton, yerr
 plt.plot([ind + len(x_list) for ind in range(len(x_iter))], x_iter)
 plt.errorbar([ind + len(x_list) for ind in range(len(x_iter))], x_iter, yerr=error_iter, fmt='o', ecolor='g', linewidth=1)
 
-plt.legend(['Dividing a segment in half', 'Newton method', 'Iteration method'], loc='upper left', fontsize='14')
+plt.legend(['Dividing a segment in half', 'Newton method', 'Iteration method'], loc='upper left', fontsize='7')
 
 plt.title('finding the root of the equation')
 
@@ -185,6 +185,8 @@ plt.tight_layout()
 plt.savefig('img/root.jpg', dpi=500)
 
 plt.clf()
+
+plt.figure(figsize=(16/2,9/2))
 
 plt.plot([ind + len(x_list) for ind in range(len(x_newton))], x_newton)
 plt.errorbar([ind + len(x_list) for ind in range(len(x_newton))], x_newton, yerr=error_newton, fmt='o', ecolor='g', linewidth=1)
