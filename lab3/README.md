@@ -16,7 +16,7 @@ This work also uses Newton's and iterative decomposition methods.
 
 $$
 \begin{flalign}
-  & 2x^2 + 5x - 3 = 0 &
+  & 2x^2 - 5x + 3 = 0 &
 \end{flalign}
 $$
 
