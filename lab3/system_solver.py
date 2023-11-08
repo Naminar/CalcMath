@@ -58,7 +58,6 @@ def test_newton_system():
 
 
 def newton_system(F, J, x, eps):
-    
     global vector_list, norm_list
     
     F_value = F(x)
