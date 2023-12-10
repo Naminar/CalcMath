@@ -9,12 +9,12 @@ $$
 
 ## Simpson's method
 $$
-I_h = \frac{h}{3} \cdot \left[ f_0 + f_n + 4 \cdot \sum_{i=1}^{n/2}{f_{2i-1}} + 2 \cdot \sum_{i=1}^{n/2-1}{f_{2i}}\right]
+I_h = \frac{h}{3} \cdot \left[ f_0 + f_n + 4 \cdot \sum_{i=1}^{n/2}{f_{2i-1}} + 2 \cdot \sum_{i=1}^{n/2-1}{f_{2i}} \right]
 $$
 
 ## Richardson extrapolation
 $$
-I^{p+1} = I^{p}_{h} + \frac{I_h^p - I_{2h}^p}{2^p - 1} + O(h^{p+1})\\
+I^{p+1} = I_{h}^{p} + \left[ \frac{I_h^p - I_{2h}^{p}}{ 2^p - 1} + O(h^{p+1}) \right]
 $$
 
 $$
