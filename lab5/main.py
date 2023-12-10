@@ -49,8 +49,9 @@ if __name__ == '__main__':
     plt.ylabel('f(x)')
     plt.plot(x, f, marker='o')
     plt.stem(x[:len(int_step)], int_step, 'g')
-    plt.legend(['f(x)', '$\\frac{[f(x_{i+1}) + f(x_{i})] \cdot h}{2}$'])
+    plt.legend(['f(x)', '$\\frac{[f(x_{i+1}) + f(x_{i})] \cdot h}{2}$'], fontsize="17")
     plt.grid()
     plt.tight_layout()
     
+    plt.gcf().set_dpi(100)
     plt.show()
