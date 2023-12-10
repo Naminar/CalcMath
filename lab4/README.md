@@ -26,9 +26,7 @@ $$
 \end{cases}
 $$
 
-## The spline interpolation method
-
-[Wiki](https://en.wikipedia.org/wiki/Spline_interpolation)
+## [The spline interpolation method (Wiki)](https://en.wikipedia.org/wiki/Spline_interpolation)
 ## Results
 | <!-- -->       | <!-- --> | <!-- -->  | <!-- -->  | <!-- -->  | <!-- -->  | <!-- -->  | <!-- -->  | <!-- -->  | <!-- -->  | <!-- -->  |
 | -------------- | -------- | --------- | --------- | --------- | --------- | --------- | --------- | --------- | --------- | --------- |
