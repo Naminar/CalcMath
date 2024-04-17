@@ -32,6 +32,12 @@ $$
 ## Runge-Kutta
 Coeff for the 3rd order are below:
 
+![](../src/l8/r1.png)
+
+![](../src/l8/r2.png)
+
+To find each $k_i$ use Newton's method to solve system with start vector $V = (1, ... , 1)$
+
 ![](https://wikimedia.org/api/rest_v1/media/math/render/svg/77601aef9e4f6677f8d126ae2997168b8e5a5615)
 
 All possible coeff configuration can see [here](https://en.wikipedia.org/wiki/List_of_Runge%E2%80%93Kutta_methods).
