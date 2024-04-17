@@ -18,10 +18,13 @@ $$
 $$
 
 ## Runge-Kutta
+Coeff for the 4s order are below:
+
+![](../src/l8/readme.png)
 
 ## Rosenbrock methods
 
-We will implement CROS scheme (Rosenbrock scheme with complex coefficients):
+We will implement Rosenbrock scheme with complex coefficients :
 
 $$
 \begin{equation*}
@@ -40,7 +43,7 @@ where
 $\textbf{J}$
 is jacobian of the system.
 
-## Nordsieck representation
+## Nordsieck representation methods
 
 $$
 \begin{cases}
