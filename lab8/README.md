@@ -17,10 +17,24 @@ $$
 \end{cases}
 $$
 
-## Runge-Kutta
-Coeff for the 4s order are below:
+Distinctive characteristics of the system:
 
-![](../src/l8/readme.png)
+$$
+\begin{cases}
+    \epsilon \leq 0,01 \\
+    0 \leq x_0 \leq 40 \\
+    0 \leq y_0 \leq 40 \\
+    a_{10} \ll 1 \\
+    a_{20} = 10 \\
+\end{cases}
+$$
+
+## Runge-Kutta
+Coeff for the 3rd order are below:
+
+![](https://wikimedia.org/api/rest_v1/media/math/render/svg/77601aef9e4f6677f8d126ae2997168b8e5a5615)
+
+All possible coeff configuration can see [here](https://en.wikipedia.org/wiki/List_of_Runge%E2%80%93Kutta_methods).
 
 ## Rosenbrock methods
 
