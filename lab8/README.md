@@ -49,7 +49,7 @@ $$
 
 $$
 \begin{equation*}
-    {x}_{n + 1} = {x}_n + \tau \cdot Re{w}
+    {x}_{n + 1} = {x}_n + \tau \cdot Re(w)
 \end{equation*}
 $$
 
