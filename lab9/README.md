@@ -18,6 +18,24 @@ y(0) = 0, y(1) = 0
 $$
 
 This system should be resolved by Runge-Kutta method.
+- - -
+To solve the last one system, the following representation is used:
+
+$$
+\begin{cases}
+y″- P^ {2}(x)y=f(x),\\
+P^ {2} (x)=10+  \sin  2  \pi x,\\
+f(x)= \cos 2 \pi x
+\end{cases}
+$$
+
+$$
+\begin{cases}
+ \frac {y_ {1}-2y_ {0}+y_ {N-1}}{h^ {2}} - P^ {2}  (0)  y_ {0}  =f(0),\\
+ \frac {y_ {n+1} -2y_ {n}+y_ {n-1}}{h^ {2}} - P^ {2} (nh)  y_ {n}  =f(nh),n=1,2,  \cdots ,N-2.\\
+ \frac {y_0-2y_{N-1}+y_{N-2}}{h^2} - P^ {2} (1-h) y_ {N-1}  =f(1-h)\\
+\end{cases}
+$$
 
 ## Shooting method
 In numerical analysis, the shooting method is a method for solving a boundary value problem by reducing it to an initial value problem. It involves finding solutions to the initial value problem for different initial conditions until one finds the solution that also satisfies the boundary conditions of the boundary value problem.
@@ -98,24 +116,6 @@ a_ {n} x_ {n-1} + b_ {n}  x_ {n} + c_ {n} x_ {1}=  d_ {n} \\
 $$
 
 More information [here](https://en.wikipedia.org/wiki/Tridiagonal_matrix_algorithm).
-
-To solve the last one system, the following representation is used:
-
-$$
-\begin{cases}
-y″- P^ {2}(x)y=f(x),\\
-P^ {2} (x)=10+  \sin  2  \pi x,\\
-f(x)= \cos 2 \pi x
-\end{cases}
-$$
-
-$$
-\begin{cases}
- \frac {y_ {1}-2y_ {0}+y_ {N-1}}{h^ {2}} - P^ {2}  (0)  y_ {0}  =f(0),\\
- \frac {y_ {n+1} -2y_ {n}+y_ {n-1}}{h^ {2}} - P^ {2} (nh)  y_ {n}  =f(nh),n=1,2,  \cdots ,N-2.\\
- \frac {y_0-2y_{N-1}+y_{N-2}}{h^2} - P^ {2} (1-h) y_ {N-1}  =f(1-h)\\
-\end{cases}
-$$
 
 ---
 
